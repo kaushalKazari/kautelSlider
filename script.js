@@ -46,7 +46,7 @@ function showNextCard(currentCardId, nextCardId) {
 
 // Add event listeners to the next buttons
 document.getElementById("sliderCard__nextBtn--1").addEventListener("click", function () {
-  showNextCard("card1", "card2"); // Go from card 1 to card 2
+  showNextCard("sliderCard--card1", "sliderCard--card2"); // Go from card 1 to card 2
 });
 
 document.getElementById("sliderCard__nextBtn--2").addEventListener("click", function () {

@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center">
 
-          <div class="sliderCard" id="card1">
+          <div class="sliderCard" id="sliderCard--card1">
             <h4 class="sliderCard__heading">Bürgschaftsmodell ermitteln</h4>
             <p class="sliderCard__subheading">
               Ermitteln Sie jetzt die optimale Bürgschaftslösung für Ihr
@@ -44,7 +44,7 @@
             </div>
           </div>
 
-          <div class="sliderCard" id="card2" style="display: none">
+          <div class="sliderCard" id="sliderCard--card2" style="display: none">
             <h4 class="sliderCard__heading">Bürgschaftsart auswählen</h4>
             <p class="sliderCard__subheading">
               Wählen Sie nun die benötigte Bürgschaftsart aus
@@ -55,7 +55,7 @@
                 <p class="sliderCard__description">
                   Bürgschaftsarten
                 </p>
-                <button class="sliderCard__scrollBtn" onclick="scrollUp()">↑</button>
+                <button class="sliderCard__scrollBtn sliderCard__scrollBtn--up" onclick="scrollUp()"></button>
                 <div class="sliderCard__btnContainer">
                     <button class="sliderCard__btn" onclick="selectOption('An-/Vorauszahlung')">An-/Vorauszahlung</button>
                     <button class="sliderCard__btn" onclick="selectOption('Arbeitszeitkonten')">Arbeitszeitkonten</button>
@@ -65,7 +65,7 @@
                     <button class="sliderCard__btn" onclick="selectOption('Handwerkersicherung')">Handwerkersicherung</button>
                     <button class="sliderCard__btn" onclick="selectOption('Vertragserfüllung')">Vertragserfüllung</button>
                 </div>
-                <button class="sliderCard__scrollBtn" onclick="scrollDown()">↓</button>
+                <button class="sliderCard__scrollBtn sliderCard__scrollBtn--down" onclick="scrollDown()"></button>
             </div>
               <div class="sliderCard__rightPanel">
                 <p class="sliderCard__description">Ausgewählte Bürgschaft</p>

@@ -60,7 +60,6 @@
 .sliderCard .sliderCard__description {
   color: #304eba;
   font-size: 17px;
-  margin-bottom: 30px;
   font-weight: 500;
 }
 
@@ -108,7 +107,7 @@
   font-weight: bold;
 }
 /* ============================================ */
-#card2 {
+#sliderCard--card2 {
   background-color: #f3f5fa;
   padding: 30px;
   border-radius: 12px;
@@ -120,7 +119,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 50px;
+    margin: 50px 10px;
 }
 .sliderCard__leftPanel {
     display: flex;
@@ -183,7 +182,7 @@
     border-radius: 4px;
 }
 
-.sliderCard__scrollBtn {
+/* .sliderCard__scrollBtn {
     background-color: #3b73cc;
     color: white;
     border: none;
@@ -191,11 +190,26 @@
     cursor: pointer;
     font-size: 18px;
     margin: 5px 0;
-    width: 100%;           /* Make scroll buttons take full width */
+    width: 100%;   
     box-sizing: border-box;
     position: relative;
-}
+} */
 
 .sliderCard__scrollBtn:hover {
     background-color: #2a56a1;
+}
+
+.sliderCard__scrollBtn--up{
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #3b73cc;
+}
+.sliderCard__scrollBtn--down{
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;  
+  border-top: 50px solid #3b73cc;
 }
